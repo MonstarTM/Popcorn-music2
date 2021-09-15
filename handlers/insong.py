@@ -4,7 +4,7 @@ from helpers.filters import command
 from callsmusic.callsmusic import client as veez
 
 
-@Client.on_message(command(["z", f"z@{BOT_USERNAME}"]))
+@Client.on_message(command(["x", f"z@{BOT_USERNAME}"]))
 async def songs(client, message):
     try:
         if len(message.command) < 2:
