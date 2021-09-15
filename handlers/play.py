@@ -454,7 +454,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "🤖: i'm joined to this group for playing music on voice chat"
+                        message.chat.id, "🤖: i've joined to this group for playing music on voice chat"
                     )
                     await lel.edit(
                         "<b>Assistant userbot joined your chat</b>",
@@ -465,7 +465,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⛑ Flood Wait Error ⛑\n{user.first_name} Xplayer is not in Ur chat plz add Manually."
-                        f"\n\nZaid Assistant @{ASSISTANT_NAME} try to add manually</b>",
+                        f"\n\nXplayer assistant @{ASSISTANT_NAME} try to add manually</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -681,7 +681,7 @@ async def play(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption=f"🏷 **name:** [{title[:45]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n😍 **ꜱᴛᴀᴛᴜꜱ:** `ᴘʟᴀʏɪɴɢ`\n" \
+            caption=f"🏷 **name:** [{title[:45]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n😊**ststus:** `playing`\n" \
                    +f"🎧 **Stylish user ʙʏ:** {message.from_user.mention}",
             reply_markup=keyboard
         )
@@ -841,7 +841,7 @@ async def ytplay(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>Flood wait error\n{user.first_name} Xplayer assistant is not in your chat."
-                        f"\n\nᴛʀʏ ᴛᴏ @{ASSISTANT_NAME} Add manually</b>",
+                        f"\n\n try to @{ASSISTANT_NAME} Add manually</b>",
                     )
     try:
         await USER.get_chat(chid)
