@@ -1,5 +1,4 @@
-#zaid Project 
-#Ur Motherfucker If U Kang And Don't Give Creadits 🥴
+
 
 from os import path
 
@@ -42,25 +41,25 @@ async def alive(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_photo(
         photo=f"{BOT_IMG}",
-        caption=f"""**➮𝐳 ʜɪɪ ɪ ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
+        caption=f"""**➮x Hi i am [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-➮ **Zαιԃ Sყʂƚҽɱ Wσɾƙιɳɠ Fιɳҽ**
+➮ **Xplayer working**
 
-➮ **ᴢᴀɪᴅ ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
+➮ **popcorn music version : 2.0 Lҽƚҽʂƚ**
 
-➮ **ᴍʏ ᴏᴡɴᴇʀ : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
+➮ **my owner : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
 
-➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
+➮ **service uptime : `{uptime}`**
 
-**𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝚣𝚊𝚒𝚍 𝙱𝚘𝚝𝚜 ♥️**""",
+**thanks for using xplayer ♥️**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
