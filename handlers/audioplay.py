@@ -17,7 +17,7 @@ from helpers.errors import DurationLimitError
 from helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("aplay") & other_filters)
 @errors
 async def stream(_, message: Message):
 
@@ -70,6 +70,6 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{AUD_IMG}",
         reply_markup=keyboard,
-        caption=f"💡 **Now playing** ᴀ ꜱᴏɴɢ ʀᴇQᴜᴇᴛᴇᴅ ʙʏ {costumer} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} __"
+        caption=f"💡 **Now playing** A song requested by {costumer} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} __"
         )
         return await lel.delete()
