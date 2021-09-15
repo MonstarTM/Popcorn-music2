@@ -438,7 +438,7 @@ async def play(_, message: Message):
         else None
     )
     if audio:
-        if round(audio.duration / 60) > DURATION_LIMIT:
+        if round(audio.duration / 300) > DURATION_LIMIT:
             raise DurationLimitError(
                 f"❌ Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
             )
@@ -448,7 +448,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls"),
                 ],
-                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/zaid_Updates")],
+                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/monstar_0")],
             ]
         )
         file_name = get_file_name(audio)
@@ -495,7 +495,7 @@ async def play(_, message: Message):
                   InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                   InlineKeyboardButton("🗑 Close", callback_data="ccls")
               ],[
-                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/zaid_Updates")
+                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/monstar_0")
               ]
           ]
         )
@@ -537,7 +537,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls")
                 ],[
-                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/Zaid_Updates")
+                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/monstar_0")
                 ]
             ]
         )
@@ -573,7 +573,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="🎧 **playing** the song requested by {} via Zaid Bot, in linked channel".format(
+            caption="🎧 **playing** the song requested by {} via xplayer, in linked channel".format(
                 message.from_user.mention()
             ),
         )
