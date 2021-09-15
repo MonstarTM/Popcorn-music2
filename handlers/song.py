@@ -32,7 +32,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    m = message.reply("🔎 ᴢᴀɪᴅ ꜰɪɴᴅɪɴɢ...")
+    m = message.reply("🔎 ꜰɪɴᴅɪɴɢ...")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -52,13 +52,13 @@ def song(client, message):
         m.edit("❌ song not found.\n\nplease give a valid song name.")
         print(str(e))
         return
-    m.edit("📥 ᴢᴀɪᴅ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...")
+    m.edit("📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**🎧 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @zaid2_Robot**"
+        rep = f"**🎧 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @stylishuser**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
@@ -73,7 +73,7 @@ def song(client, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ error, contact @Zaid_Support To Fix")
+        m.edit("❌ error, contact @stylishuser To Fix")
         print(e)
 
     try:
@@ -257,7 +257,7 @@ async def ytmusic(client, message: Message):
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"💡 __Getting {urlissed} from zaid server, please wait...__"
+        message.chat.id, f"💡 __Getting {urlissed} from server, please wait...__"
     )
     if not urlissed:
         await pablo.edit("invalid command syntax, please check help menu to know more!")
@@ -307,7 +307,7 @@ async def ytmusic(client, message: Message):
 
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"✨ **video name :** __{thum}__ \n💭 **zaid user by:** __{urlissed}__ \n📣 **channel :** __{thums}__ \n📌 **link :** [click here]({mo})"
+    capy = f"✨ **video name :** __{thum}__ \n💭 **stylish user by:** __{urlissed}__ \n📣 **channel :** __{thums}__ \n📌 **link :** [click here]({mo})"
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),
