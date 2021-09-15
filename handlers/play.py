@@ -509,10 +509,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🖱 menu", callback_data="menu"),
-                    InlineKeyboardButton("❌ close", callback_data="cls"),
+                    InlineKeyboardButton(" menu", callback_data="menu"),
+                    InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0"),
                 ],[
-                    InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0")
+                    InlineKeyboardButton("❌Close", callback_data="cls")
                 ],
             ]
         )
@@ -557,9 +557,9 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("🖱 menu", callback_data="menu"),
-                    InlineKeyboardButton("❌ close", callback_data="cls"),
+                    InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0"),
                 ],[
-                    InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/monstar_0")
+                    InlineKeyboardButton("❌Close", callback_data="cls")
                 ],
             ]
         )
@@ -598,8 +598,6 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton("4", callback_data=f'plll 3|{query}|{user_id}'),
                         InlineKeyboardButton("5", callback_data=f'plll 4|{query}|{user_id}'),
-                    ],
-                    [
                         InlineKeyboardButton("6", callback_data=f'plll 5|{query}|{user_id}'),
                     ],
                     [InlineKeyboardButton(text="🗑ᴢ ᴄʟᴏꜱᴇ", callback_data="cls")],
@@ -641,9 +639,9 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("🖱 menu", callback_data="menu"),
-                    InlineKeyboardButton("❌ close", callback_data="cls"),
+                    InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0"),
                 ],[
-                    InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0")
+                    InlineKeyboardButton("❌ close", callback_data="cls")
                 ],
             ]
             )
@@ -740,9 +738,9 @@ async def lol_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("🖱 menu", callback_data="menu"),
-                    InlineKeyboardButton("❌ close", callback_data="cls"),
+                    InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0"),
                 ],[
-                    InlineKeyboardButton("📣 Channel", url=f"https://t.me/monstar_0")
+                    InlineKeyboardButton("❌ close", callback_data="cls")
                 ],
             ]
     )
@@ -764,7 +762,7 @@ async def lol_cb(b, cb):
         await b.send_photo(
         chat_id,
         photo="final.png",
-        caption=f"💡 **track in the queue**\n\n🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Stylish user ʙʏ:** {r_by.mention}\n" \
+        caption=f"💡 **track in the queue**\n\n🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Stylish user ʙʏ:** {message.from_user.mention}\n}\n" \
                +f"\n🔢 **track position:** » `{position}` «",
         reply_markup=keyboard,
         )
