@@ -1,6 +1,6 @@
-<h2 align="centre"> ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
+<h2 align="centre"> Monstar Xplayer🔥</h2>
 
-### ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### Xᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/Zaid_Team1"><img src="https://telegra.ph/file/a5efad6976ca08e71ef69.png" width="300"></a></p>
 <p align="center">
