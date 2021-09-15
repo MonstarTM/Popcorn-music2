@@ -1,7 +1,4 @@
-# this module i created only for playing music using audio file, idk, because the audio player on play.py module not working
-# so this is the alternative
-# audio play function
-#Ur motherfucker If U Kang And Don't Give Creadits
+
 
 from os import path
 
@@ -20,11 +17,11 @@ from helpers.errors import DurationLimitError
 from helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@Client.on_message(command("stream") & other_filters)
+@Client.on_message(command("play") & other_filters)
 @errors
 async def stream(_, message: Message):
 
-    lel = await message.reply("🔁 **ᴘʀᴏᴄᴇꜱꜱɪɴɢ** ᴢ ᴘʟᴀʏᴇʀ...")
+    lel = await message.reply("🔁 **processing...** Xplayer...")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -33,10 +30,10 @@ async def stream(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/Zaid_Team1"),
+                        url=f"https://t.me/stylishuser"),
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/Zaid_Updates")
+                        url=f"https://t.me/monstar_0")
                 ]
             ]
         )
@@ -58,14 +55,14 @@ async def stream(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await lel.edit_text("ɢɪᴠᴇ ꜱᴏᴍᴇᴛʜɪɴɢꜱ ʟɪᴋᴇ ᴀᴜᴅɪᴏ ꜰɪʟᴇꜱ ᴀɴᴅ ʏᴛ ʟɪɴᴋ!")
+        return await lel.edit_text("Reply to an audio file or YouTube link!")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo=f"{QUE_IMG}",
         reply_markup=keyboard,
-        caption=f"#⃣  ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛᴇᴅ ꜱᴏɴɢ ɪɴ **Qᴜᴇᴜᴇ** ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ {position} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} ᴢᴀɪᴅ__")
+        caption=f"#⃣  ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛᴇᴅ ꜱᴏɴɢ ɪɴ **Qᴜᴇᴜᴇ** ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ {position} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} __")
         return await lel.delete()
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
@@ -73,6 +70,6 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{AUD_IMG}",
         reply_markup=keyboard,
-        caption=f"💡 **ɴᴏᴡ ᴘʟᴀʏɪɴɢ** ᴀ ꜱᴏɴɢ ʀᴇQᴜᴇᴛᴇᴅ ʙʏ {costumer} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} ᴢᴀɪᴅ__"
+        caption=f"💡 **Now playing** ᴀ ꜱᴏɴɢ ʀᴇQᴜᴇᴛᴇᴅ ʙʏ {costumer} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} __"
         )
         return await lel.delete()
