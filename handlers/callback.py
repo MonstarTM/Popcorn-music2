@@ -21,28 +21,28 @@ async def cbstart(_, query: CallbackQuery):
             [ 
                 [
                     InlineKeyboardButton(
-                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛꜱ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "Add Me to Your Chat", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="cbhowtouse")
+                        "Learn Instructions", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
+                         "Commands", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "ᴅᴇᴠʟᴏᴘᴇʀ", url=f"https://t.me/Tithonus")
+                        "Owner", url=f"https://t.me/Tithonus")
                 ],[
                     InlineKeyboardButton(
-                        "ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/StylishUser"
+                        "Support", url=f"https://t.me/StylishUser"
                     ),
                     InlineKeyboardButton(
-                        "ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/monstar_0")
+                        "Updates", url=f"https://t.me/monstar_0")
                 ],[
                     InlineKeyboardButton(
                         "Chatting Group", url="https://t.me/EnglishChatting_Club")
                 ],[
                     InlineKeyboardButton(
-                        "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://github.com/mohsinhsn/popcorn-music2"
+                        "💥 Source Code 💫", url="https://github.com/mohsinhsn/popcorn-music2"
                     )
                 ]
             ]
@@ -63,33 +63,28 @@ __Powered by {BOT_NAME} A.I__""",
             [
                 [
                     InlineKeyboardButton(
-                        "ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
+                        "Basic Cmdns", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "ᴀᴅᴠᴀᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
+                        "Advance Cmnds", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ᴀᴅᴍɪɴ ᴄᴍᴅꜱ", callback_data="cbadmin"
+                        "Admin Cmnds", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴜᴅᴏ ᴡᴀʟᴇ ᴋ ʟɪᴇ", callback_data="cbsudo"
+                        "Sudo Cmnds", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ᴏᴡɴᴇʀ ᴄᴍᴅꜱ", callback_data="cbowner"
+                        "Owner Cmnds", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ꜰᴜɴ ᴄᴍᴅꜱ", callback_data="cbfun"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "ʙᴀᴄᴋ", callback_data="cbguide"
+                        "Back", callback_data="cbguide"
                     )
                 ]
             ]
@@ -104,13 +99,13 @@ async def cbbasic(_, query: CallbackQuery):
 
 🎧 [ Xplayer group commands ]
 
-/play (song name) - play song from youtube
-/ytp (song name) - play song directly from youtube 
-/play (reply to audio) - play song using audio file
+/play (song name) - play song from youtube directly.
+/aplay (reply to audio) - play song using audio file
+/splay (song name) - play song from youtube by selecting number of results
 /playlist - show the list song in queue
 /song (song name) - download song from youtube
 /search (video name) - search video from youtube detailed
-/vsong (video name) - download video from youtube detailed
+/video (video name) - download video from youtube detailed
 /lyric - (song name) lyrics scrapper
 /vk (song name) - download song from inline mode
 
@@ -125,12 +120,12 @@ async def cbbasic(_, query: CallbackQuery):
 /admincache - refresh the admin cache
 /ubjoinc - invite the assistant for join to your channel
 
-__Powered by {BOT_NAME} A.I__""",
+__Powered by {BOT_NAME}__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʙᴀᴄᴋ", callback_data="cbhelp"
+                        " Back", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -154,7 +149,7 @@ __Powered by {BOT_NAME} __""",
             [
                 [
                     InlineKeyboardButton(
-                        " ʙᴀᴄᴋ", callback_data="cbhelp"
+                        " Back", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -174,7 +169,7 @@ async def cbadmin(_, query: CallbackQuery):
 /end - stop music streaming
 /userbotjoin - invite assistant join to your group
 /auth - authorized user for using music bot
-/deauth - unauthorized for using music bot
+/unauth - unauthorized for using music bot
 /control - open the player settings panel
 /delcmd (on | off) - enable / disable del cmd feature
 /musicplayer (on / off) - disable / enable music player in your group
@@ -188,7 +183,7 @@ __Powered by {BOT_NAME} __""",
             [
                 [
                     InlineKeyboardButton(
-                        " ʙᴀᴄᴋ", callback_data="cbhelp"
+                        " Back", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -210,7 +205,7 @@ __Powered by {BOT_NAME} __""",
             [
                 [
                     InlineKeyboardButton(
-                        " ʙᴀᴄᴋ", callback_data="cbhelp"
+                        " Back", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -236,31 +231,7 @@ __Powered by {BOT_NAME} __""",
             [
                 [
                     InlineKeyboardButton(
-                        " ʙᴀᴄᴋ", callback_data="cbhelp"
-                    )
-                ]
-            ]
-        )
-    )
-
-
-@Client.on_callback_query(filters.regex("cbfun"))
-async def cbfun(_, query: CallbackQuery):
-    await query.edit_message_text(
-        f"""<b> here is the fun commands</b>
-
-/chika - check it by yourself
-/wibu - check it by yourself
-/asupan - check it by yourself
-/truth - check it by yourself
-/dare - check it by yourself
-
-__Powered by {BOT_NAME} __""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        " ʙᴀᴄᴋ", callback_data="cbhelp"
+                        " Back", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -283,12 +254,12 @@ __Powered by {BOT_NAME} __""",
             [
                 [
                     InlineKeyboardButton(
-                        " ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ", callback_data="cbhelp"
+                        " Commands list", callback_data="cbhelp"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "❌ ᴄʟᴏꜱᴇ", callback_data="close"
+                        "❌ Close", callback_data="close"
                     )
                 ]
             ]
@@ -327,7 +298,7 @@ async def cbback(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⛔ ᴀɴᴛɪ ᴄᴍᴅ", callback_data="cbdelcmds"
+                        "⛔ anti cmnd", callback_data="cbdelcmds"
                     )
                 ],
                 [
@@ -442,11 +413,6 @@ async def cbhelps(_, query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                         "ᴏᴡɴᴇʀ ᴄᴍᴅꜱ", callback_data="cbowner"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "ꜰᴜɴ ᴄᴍᴅꜱ", callback_data="cbfun"
                     )
                 ],
                 [
