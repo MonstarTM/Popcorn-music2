@@ -84,10 +84,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/stylishuser"
+                        "✨Group", url=f"https://t.me/stylishuser"
                     ),
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/monstar_0"
+                        "📣Channel", url=f"https://t.me/monstar_0"
                     )
                 ]
             ]
@@ -157,11 +157,11 @@ async def help_(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("ᴢ ᴘɪɴɴɢ...")
+    m_reply = await message.reply_text("X ping...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "m `ᴘᴏɴɢ!!`\n"
-        f"m  `{delta_ping * 1000:.3f} ᴍꜱ`"
+        "**X `ᴘᴏɴɢ!!`\n"
+        f"X  `{delta_ping * 1000:.3f} ᴍꜱ`**"
     )
 
 
