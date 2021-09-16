@@ -762,7 +762,7 @@ async def lol_cb(b, cb):
         await b.send_photo(
         chat_id,
         photo="final.png",
-        caption=f"💡 **track in the queue**\n\n🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Stylish user ʙʏ:** {message.from_user.mention}\n" \
+        caption=f"💡 **track in the queue**\n\n🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Stylish user ʙʏ:** {cb.message.from_user.mention}\n" \
                +f"\n🔢 **track position:** » `{position}` «",
         reply_markup=keyboard,
         )
@@ -858,7 +858,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🎵 ** Connected to xplayer server...**\nVia YouTube")
+    await lel.edit("🎵** Connected to YouTube Server...\nVia Xplayer**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
