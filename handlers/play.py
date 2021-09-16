@@ -784,7 +784,7 @@ async def lol_cb(b, cb):
         chat_id,
         photo="final.png",
         caption=f"🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n😊 **status:** `playing`\n" \
-               +f"🎧 **stylish user ʙʏ:** {r_by.mention}",
+               +f"🎧 **stylish user ʙʏ:** {message.from_user.mention}",
         reply_markup=keyboard,
         )
         os.remove("final.png")
