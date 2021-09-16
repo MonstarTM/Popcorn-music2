@@ -600,7 +600,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton("5", callback_data=f'plll 4|{query}|{user_id}'),
                         InlineKeyboardButton("6", callback_data=f'plll 5|{query}|{user_id}'),
                     ],
-                    [InlineKeyboardButton(text="🗑ᴢ ᴄʟᴏꜱᴇ", callback_data="cls")],
+                    [InlineKeyboardButton(text="❌ ᴄʟᴏꜱᴇ", callback_data="cls")],
                 ]
             )
             await message.reply_photo(
@@ -659,7 +659,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"💡 **track added in the queue**\n\n🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Stylish user ʙʏ:** {message.from_user.mention}\n" \
+            caption=f"💡 **track added in the queue**\n\n🏷 **name:** [{title[:45]}]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Stylish user ʙʏ:** {r_by.mention}\n" \
                    +f"\n🔢 **track position:** » `{position}` «",
             reply_markup=keyboard
         )
@@ -737,7 +737,7 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🖱 menu", callback_data="menu"),
+                    InlineKeyboardButton("Ⓜ️enu", callback_data="menu"),
                     InlineKeyboardButton("📣 channel", url=f"https://t.me/monstar_0"),
                 ],[
                     InlineKeyboardButton("❌ close", callback_data="cls")
@@ -858,7 +858,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🎵 ** Connected to xplayer server...**")
+    await lel.edit("🎵 ** Connected to xplayer server...**\nVia YouTube")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -884,11 +884,11 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🖱 menu", callback_data="menu"),
-                InlineKeyboardButton("❌ close", callback_data="cls"),
+                InlineKeyboardButton("Ⓜ️enu", callback_data="menu"),
+                InlineKeyboardButton("📣Channel", url=f"https://t.me/monstar_0"),
             ],[
-                InlineKeyboardButton("📣 Channel", url=f"https://t.me/monstar_0"),
-                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/StylishUser")
+                InlineKeyboardButton("✨Support", url=f"https://t.me/StylishUser"),
+                InlineKeyboardButton("❌ close", callback_data="cls")
             ],
         ]
     )
