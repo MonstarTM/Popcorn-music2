@@ -2,7 +2,7 @@
 
 ### Xᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-<p align="center"><a href="https://t.me/Zaid_Team1"><img src="https://telegra.ph/file/a5efad6976ca08e71ef69.png" width="300"></a></p>
+<p align="center"><a href="https://t.me/stylishUser"><img src="https://telegra.ph/file/a5efad6976ca08e71ef69.png" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
@@ -18,14 +18,14 @@
 
 [![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@BoooCreative/StringSession-1#main.py)
 ## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Vc-Player&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=mohsinhsn&repo=popcorn-music2&theme=dark)
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
 - /ᴘʟᴀʏ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴘʟᴀʏ ꜱᴏɴɢ ʏᴏᴜ ʀᴇQᴜᴇꜱᴛᴇᴅ
 - /ᴘʟᴀʏʟɪꜱᴛ - ꜱʜᴏᴡ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ʟɪꜱᴛ
 - /ꜱᴏɴɢ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢꜱ ʏᴏᴜ ᴡᴀɴᴛ Qᴜɪᴄᴋʟʏ
 - /ꜱᴇᴀʀᴄʜ <Qᴜᴇʀʏ> - ꜱᴇᴀʀᴄʜ ᴠɪᴅᴇᴏꜱ ᴏɴ ʏᴏᴜᴛᴜʙᴇ ᴡɪᴛʜ ᴅᴇᴛᴀɪʟꜱ
-- /ᴠꜱᴏɴɢ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏꜱ ʏᴏᴜ ᴡᴀɴᴛ Qᴜɪᴄᴋʟʏ
+- /video <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏꜱ ʏᴏᴜ ᴡᴀɴᴛ Qᴜɪᴄᴋʟʏ
 - /ʟʏʀɪᴄ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ʟʏʀɪᴄꜱ ꜱᴄʀᴀᴘᴘᴇʀ
 - /ᴠᴋ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ɢᴇɴᴇʀᴀᴛᴇ ꜱᴏɴɢ ᴡɪᴛʜᴏᴜᴛ ᴅᴏᴡɴʟᴏᴀᴅ
 
@@ -67,12 +67,12 @@
 ## ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛꜱ 💜
 ʜᴇʀᴏᴋᴜ ɪꜱ ᴛʜᴇ ᴇᴀꜱʏ ᴡᴀʏ ᴛᴏ ʜᴏꜱᴛ ᴜʀ ᴀᴘᴘꜱ
 
-[![ᴢᴠᴄ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/Zaid-Vc-Player)
+[![Xplayer deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mohsinhsn/popcorn-music2)
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
 ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/Itsunknown-12/Zaid-Vc-Player/blob/main/example.env), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itsunknown-12/Zaid-Vc-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,OWNER_ID,DATABASE_URL,LOG_CHANNEL,BROADCAST_AS_COPY,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mohsinhsn/popcorn-music2&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,OWNER_ID,DATABASE_URL,LOG_CHANNEL,BROADCAST_AS_COPY,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT)
 
 ### ꜱᴘᴇᴄɪᴀʟ ᴄʀᴇᴀᴅɪᴛꜱ 💖
 - [Levina](https://github.com/levina-lab): ʀᴇᴀʟ ᴅᴇᴠ💞
@@ -80,4 +80,4 @@
 
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/stylishuser"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
