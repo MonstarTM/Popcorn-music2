@@ -43,7 +43,7 @@
 - /ᴜᴘᴛɪᴍᴇ - ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ ꜱᴛᴀᴛᴜꜱ
 - /ᴘɪɴɢ - ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴘɪɴɢ ꜱᴛᴀᴛᴜꜱ
 - /ᴀᴜᴛʜ - ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴘᴇᴏᴘʟᴇ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ
-- /ᴅᴇᴀᴜᴛʜ - ᴅᴇᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴘᴇᴏᴘʟᴇ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ
+- /unᴀᴜᴛʜ - ᴅᴇᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴘᴇᴏᴘʟᴇ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ
 - /ᴄᴏɴᴛʀᴏʟ - ᴏᴘᴇɴ ᴛʜᴇ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴄᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟ
 
 ### ꜱᴜᴅᴏ ᴜꜱᴇʀ 🧙‍♂️
@@ -80,4 +80,4 @@
 
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/stylishuser"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/stylishuser"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/monstar_0"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
