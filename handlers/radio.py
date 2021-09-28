@@ -14,6 +14,14 @@ USERNAME = Config.BOT_USERNAME
 RADIO_CALL = db.RADIO_CALL
 FFMPEG_PROCESSES = db.FFMPEG_PROCESSES
 
+ydl_opts = {
+        "geo_bypass": True,
+        "nocheckcertificate": True,
+}
+ydl = YoutubeDL(ydl_opts)
+group_call_factory = GroupCallFactory(User, GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM)
+
+
 @Client.on_message(filters.command(["radio", f"radio@{USERNAME}"]))
 async def radio(client, m: Message):
     if not ' ' in m.text:
