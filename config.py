@@ -5,10 +5,6 @@ from dotenv import load_dotenv
 if os.path.exists("local.env"):
     load_dotenv("local.env")
 
-class db:
-    RADIO_CALL = {}
-    FFMPEG_PROCESSES = {}
-
 load_dotenv()
 que = {}
 admins = {}
