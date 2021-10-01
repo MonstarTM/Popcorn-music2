@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from utils import mp, RADIO, USERNAME
-from config2 import Config
 from config2 import STREAM
 
 @Client.on_message(filters.command(["radio", f"radio@{USERNAME}"]))
