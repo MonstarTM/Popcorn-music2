@@ -1,5 +1,4 @@
 import os
-from config2 import Config
 import ffmpeg
 from pyrogram import emoji
 from pyrogram.methods.messages.download_media import DEFAULT_DOWNLOAD_DIR
