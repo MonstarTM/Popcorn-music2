@@ -513,10 +513,12 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Ⓜ️enu", callback_data="menu"),
-                InlineKeyboardButton("📣Channel", url=f"https://t.me/monstar_0"),
+                InlineKeyboardButton("⏹", "leave"),
+                InlineKeyboardButton("⏸", "puse"),
+                InlineKeyboardButton("▶️", "resume"),
+                InlineKeyboardButton("⏭", "skip"),
             ],[
-                InlineKeyboardButton("✨Support", url=f"https://t.me/StylishUser"),
+                InlineKeyboardButton("Support", url=f"https://t.me/StylishUser"),
                 InlineKeyboardButton("❌ Close", callback_data="cls")
             ],
         ]
@@ -557,7 +559,7 @@ async def ytplay(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption = f"🎵**Name:** [{title[:25]}]({url})\n⏱ **Duration:** `{duration}`\n😊 **Status:** `playing`\n" \
+            caption = f"🎵**Name:** [{title[:25]}]({url})\n⏱ **Duration:** `{duration}`\n😊 **Status:** `playing in{{chat_id}`\n" \
                     + f"🎧 **Request by:** {message.from_user.mention}",
                    reply_markup=keyboard,)
         os.remove("final.png")
