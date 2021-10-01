@@ -559,7 +559,7 @@ async def ytplay(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption = f"🎵**Name:** [{title[:25]}]({url})\n⏱ **Duration:** `{duration}`\n😊 **Status:** `playing in{{chat_id}`\n" \
+            caption = f"🎵**Name:** [{title[:25]}]({url})\n⏱ **Duration:** `{duration}`\n😊 **Status:** `playing`\n" \
                     + f"🎧 **Request by:** {message.from_user.mention}",
                    reply_markup=keyboard,)
         os.remove("final.png")
